@@ -1,11 +1,13 @@
 import UserResults from "../components/users/UserResults";
+import UserSearch from "../components/users/UserSearch";
 
-function NotFound() {
+function Home() {
   return (
-    <div>
+    <>
+      <UserSearch />
       <UserResults />
-    </div>
+    </>
   )
 }
 
-export default NotFound
+export default Home
