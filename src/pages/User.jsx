@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import Spinner from '../components/layout/Spinner';
 
 
-function User({}) {
+function User() {
     const {getUser, user} = useContext(GithubContext);
     const params = useParams();
 
